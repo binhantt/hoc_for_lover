@@ -1,0 +1,41 @@
+{
+  "name": "forlove-backend",
+  "version": "1.0.0",
+  "description": "Backend API for ForLove Dating App",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "node src/migrations/run-migrations.js",
+    "seed": "node src/seeders/run-seeders.js"
+  },
+  "keywords": [
+    "dating",
+    "api",
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.35.2",
+    "mysql2": "^3.6.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-validator": "^7.0.1",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.6.0",
+    "uuid": "^9.0.1",
+    "morgan": "^1.10.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
